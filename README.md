@@ -21,3 +21,17 @@ type List interface {
 	Len() int
 }
 ```
+
+### Example 
+
+```go
+	l := New()
+	
+	l.Insert(0)
+	
+	if l.Contains(0) {
+		fmt.Println("invalid contains")
+	}
+	
+	l.Delete(0)
+```
